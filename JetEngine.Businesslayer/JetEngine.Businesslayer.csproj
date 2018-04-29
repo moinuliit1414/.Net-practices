@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JetEngine.DataAccessLayer\JetEngine.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\JetEngine.Helper\JetEngine.Helper.csproj" />
+    <ProjectReference Include="..\JetEngine.LogEngine\JetEngine.LogEngine.csproj" />
+    <ProjectReference Include="..\JetEngine.Repository\JetEngine.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

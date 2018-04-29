@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FrameworkExtract.System.Deployment" Version="4.0.30319" />
+    <PackageReference Include="log4net" Version="2.0.3" />
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="2.0.0-preview1-25914-04" />
+    <PackageReference Include="MSBuild.Extension.Pack" Version="1.5.0" />
+  </ItemGroup>
+
+</Project>
